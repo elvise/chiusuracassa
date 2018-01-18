@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chiusura_cassa *.css
+recursive-include chiusura_cassa *.csv
+recursive-include chiusura_cassa *.html
+recursive-include chiusura_cassa *.ico
+recursive-include chiusura_cassa *.js
+recursive-include chiusura_cassa *.json
+recursive-include chiusura_cassa *.md
+recursive-include chiusura_cassa *.png
+recursive-include chiusura_cassa *.py
+recursive-include chiusura_cassa *.svg
+recursive-include chiusura_cassa *.txt
+recursive-exclude chiusura_cassa *.pyc
